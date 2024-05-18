@@ -34,7 +34,7 @@ function App() {
     <>
       <Routes>
         <Route
-          path="/Dashboard"
+          path="/dashboard"
           element={
             <>
               <PageTitle title="Dashboard" />
