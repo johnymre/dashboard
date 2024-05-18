@@ -7,7 +7,7 @@ import SignIn from './pages/Authentication/SignIn';
 import SignUp from './pages/Authentication/SignUp';
 import Calendar from './pages/Calendar';
 import Chart from './pages/Chart';
-import ECommerce from './pages/Dashboard/Dashboard';
+import Dashboard from './pages/Dashboard/Dashboard';
 import FormElements from './pages/Form/FormElements';
 import FormLayout from './pages/Form/FormLayout';
 import Profile from './pages/Profile';
@@ -34,11 +34,11 @@ function App() {
     <>
       <Routes>
         <Route
-          index
+          path="/Dashboard"
           element={
             <>
               <PageTitle title="Dashboard" />
-              <ECommerce />
+              <Dashboard />
             </>
           }
         />
@@ -124,7 +124,7 @@ function App() {
           }
         />
         <Route
-          path="/auth/signin"
+          index
           element={
             <>
               <PageTitle title="Signin" />
