@@ -34,8 +34,8 @@ function App() {
     <>
       <Routes>
         <Route
-         index
-          
+         
+         path="/dashboard"
           element={
             <>
               <PageTitle title="Dashboard" />
@@ -125,7 +125,7 @@ function App() {
           }
         />
         <Route
-          path="/auth/sigin"
+          index
           element={
             <>
               <PageTitle title="Signin" />
